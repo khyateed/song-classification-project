@@ -7,6 +7,7 @@
 
 Spotify is always looking to create additional features and playlists to have users discover new artists from different genres and eras. New additions renew user for the app and have users looking to expand their assortment of music. The below analysis looks to prove that music can be classified by the time period they originate from by their musical attributes. 
 
+![img](./images/spothome.jpg)
 
 ## Business Problem
 
@@ -19,10 +20,21 @@ We utilized a Kaggle Dataset that has Spotify music data from 1921-2020
 
 ## Method
 
+### Initial Data Setup
+
+First had to join together the different tables that came in the original zip file and then bin our target variable into eras.
+
 ### Exploratory Data Analysis
 
-Value counts were calculated for all categorical variables. Descriptive statistics and histograms were created for continuous variables to assess the distribution and evaluate measures of central tendency and dispersion. Chi-square test of association were used to assess the relationship of our categorical features of interest with restaurant closure, and the independent samples t-test was used to assess the relationship between restaurant closure and our continuous features of interest.
+![img](./images/attributes.png)
 
+In the attached notebook, we generated histograms and compared the variables in our data across the three eras. Also created a correlation plot to see how features interact with one another and with our target variable. After discovering the major variables that differed across the eras, we created visualizations of those specific variables. Our initial findings showed that popularity, acousticness, energy, loudness, and valence would most likely the most defining attributes of each era.
+
+![img](./images/pop.png)
+![img](./images/acoustic.png)
+![img](./images/energy.png)
+![img](./images/loudness.png)
+![img](./images/valence.png)
 ### Feature Engineering
 
 We generated new features with feature interaction, natural logs, dummy variables, and polynomials.
