@@ -50,7 +50,7 @@ Ran the below models with recursive feature elimination and GridSearch, in order
 
 ### Evaluation
 
-![img](./images/valence.png)
+![img](./images/treeplot.png)
 
 Tested each model results for F1, recall, and accuracy. We concluded that F1 score would take most importance in our scenario because false positives aren't necessarily the worst-case scenario. Artists might replicate songs from other eras. 
 
