@@ -68,6 +68,8 @@ As prior mentioned, our next versions of our models would exclude popularity in 
 ```
 ## Navigation
 ├── README.md
+├── data
+│   ├── datasets.zip
 ├── images
 │   ├── acoustic.png
 │   ├── attributes.png
@@ -77,8 +79,6 @@ As prior mentioned, our next versions of our models would exclude popularity in 
 │   ├── pop.png
 │   ├── spothome.png
 │   ├── valence.png
-├── datasets
-│   ├── datasets.zip
 └── pickled
 │   ├── grid_forest_model.pickle
 │   ├── rfe_features.pickle
