@@ -35,6 +35,7 @@ In the attached notebook, we generated histograms and compared the variables in 
 ![img](./images/energy.png)
 ![img](./images/loudness.png)
 ![img](./images/valence.png)
+
 ### Feature Engineering
 
 We generated new features with feature interaction, natural logs, dummy variables, and polynomials.
@@ -48,11 +49,11 @@ Ran the below models with recursive feature elimination and GridSearch, in order
 * Random Forest
 * XGBoost
 
-### Evaluation
-
 ![img](./images/tree_plot.png)
 
-Tested each model results for F1, recall, and accuracy. We concluded that F1 score would take most importance in our scenario because false positives aren't necessarily the worst-case scenario. Artists might replicate songs from other eras. 
+### Evaluation
+
+Tested each model results for F1, recall, and accuracy. We concluded that F1 score would take most importance in our scenario because false positives aren't necessarily the worst-case scenario and might actually be one of the features we want to look into further because artists might replicate songs from other eras. 
 
 ## Results
 
