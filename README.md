@@ -78,6 +78,7 @@ As prior mentioned, our next versions of our models would exclude popularity in 
 │   ├── loudness.png
 │   ├── pop.png
 │   ├── spothome.png
+│   ├── treeplot.png
 │   ├── valence.png
 └── pickled
 │   ├── grid_forest_model.pickle
