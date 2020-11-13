@@ -5,7 +5,7 @@
 
 ## Overview
 
-Spotify is always looking to create additional features and playlists to have users discover new artists from different genres and eras. New additions renew user for the app and have users looking to expand their assortment of music. The below analysis looks to prove that music can be classified by the time period they originate from by their musical attributes. New artist discovery through genre classification not only benefits users, but also artists and Spotify. Unknown artists benefit from more methods of discovery and Spotify potentially gains more revenue and more data.
+Spotify is always looking to create additional features and playlists to have users discover new artists from different genres and eras. New additions might cause existings users to renew their monthly subscriptions for the app and look to expand their assortment of music. The below analysis looks to prove that music can be classified by the time period they originate from by their musical attributes. New artist discovery through genre classification not only benefits users, but also artists and Spotify. Unknown artists benefit from more methods of discovery and Spotify potentially gains more revenue and more data.
 
 ![img](./images/spothome.jpg)
 
@@ -50,7 +50,7 @@ Ran the below models with recursive feature elimination and GridSearch, in order
 
 ### Evaluation
 
-Tested each model results for F1, recall, and accuracy. We concluded that F1 score would take most importance in our scenario.
+Tested each model results for F1, recall, and accuracy. We concluded that F1 score would take most importance in our scenario because false positives aren't necessarily the worst-case scenario. Artists might replicate songs from other eras. 
 
 ## Results
 
