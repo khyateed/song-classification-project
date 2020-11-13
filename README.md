@@ -60,6 +60,7 @@ The clearest predictors of era classification were popularity, duration, loudnes
 
 As prior mentioned, our next versions of our models would exclude popularity in order to determine classifications purely off musical features. This project is a first step into developing insights about song attributes. We can utilize this knowledge to further develop classifications and beginning to Other application is to use the insights from this project about song attributes as a launching point into unsupervised learning, for example clustering songs to make a recommendation engine 
 
+```
 ## Navigation
 ├── README.md
 ├── images
