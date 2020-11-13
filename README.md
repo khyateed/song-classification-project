@@ -48,13 +48,17 @@ Ran the below models with recursive feature elimination and GridSearch, in order
 * Random Forest
 * XGBoost
 
+### Evaluation
+
+Tested each model results for F1, recall, and accuracy. We concluded that F1 score would take most importance in our scenario.
+
 ## Results
 
 Our results were in the form of evaluation metrics, model coefficients, and feature importance. Our initial thoughts prior to the project were that our models would perform poorly. However, our models were fairly accurate, boasting F1 scores in ranges of 0.65 - 0.72. The clearest predictors of era classification were popularity, duration, loudness, and acousticness. Popularity is most likely due to the users of Spotify being from a younger age group that is more inclined to listen to music from more recent eras.  Because popularity isn't a reliable music attribute, future models would omit this variable from the data.
 
 ## Conclusions
 
-The best performing models were the KNN and XGBoost model. 
+The best performing models were the KNN and XGBoost model. Our model evaluations and feature importance show that there are certain characteristics that can assist in determining the time period a song originated from. More recent eras tend to have more popular songs and shorter songs as well, which are not necessarily audio characteristics of the music but can also have underlying meaning. 
 
 
 ## Further Research
