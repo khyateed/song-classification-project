@@ -15,9 +15,6 @@ To develop the best features and playlists, we need to understand which features
 
 ## Data
 
-We utilized a Kaggle Dataset that has Spotify music data from 1921-2020
-*  https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks
-
 The primary dataset we used contains song attributes for [+160k Spotify songs](https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks), from 1921-2020. The Spotify data contains audio features for each track, they are as follows:
 
 | KEY              | VALUE TYPE | VALUE DESCRIPTION                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
